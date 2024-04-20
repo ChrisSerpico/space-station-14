@@ -327,6 +327,14 @@
 
 - type: entity
   parent: WindoorSecure
+  id: WindoorSecureChiefMedicalOfficerLocked
+  suffix: ChiefMedicalOfficer, Locked
+  components:
+  - type: AccessReader
+    access: [["ChiefMedicalOfficer"]]
+
+- type: entity
+  parent: WindoorSecure
   id: WindoorSecureMedicalLocked
   suffix: Medical, Locked
   components:
