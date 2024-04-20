@@ -27,7 +27,7 @@ public sealed partial class ThiefRuleComponent : Component
     /// Add a Pacified comp to thieves
     /// </summary>
     [DataField]
-    public bool PacifistThieves = true;
+    public bool PacifistThieves = false;
 
     [DataField]
     public ProtoId<AntagPrototype> ThiefPrototypeId = "Thief";
@@ -54,7 +54,7 @@ public sealed partial class ThiefRuleComponent : Component
     /// Max Thiefs created by rule on roundstart
     /// </summary>
     [DataField]
-    public int MaxAllowThief = 3;
+    public int MaxAllowThief = 1;
 
     /// <summary>
     /// Sound played when making the player a thief via antag control or ghost role

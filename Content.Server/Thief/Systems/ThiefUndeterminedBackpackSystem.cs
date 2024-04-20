@@ -18,7 +18,7 @@ public sealed class ThiefUndeterminedBackpackSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
 
-    private const int MaxSelectedSets = 2;
+    private const int MaxSelectedSets = 1;
     public override void Initialize()
     {
         base.Initialize();
